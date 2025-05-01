@@ -14,6 +14,11 @@ We used the GSE11318 dataset and performed the following data collapsing steps:
 - For gene expression data: averaged expression values from multiple probes targeting the same gene
 - For copy number data: averaged every 10 adjacent copy number locations to reduce dimensionality
 
+### Data Files
+- `metadata.csv`: Contains patient metadata including disease subtype and survival information
+- `collapsed_expression.csv`: collapsed gene expression data
+- `collapsed_CGH.csv`: Collapsed copy number data 
+
 ## Key Findings
 - Identified significant associations between gene expression and copy number variations
 - Found stronger correlations with disease subtype compared to survival status
